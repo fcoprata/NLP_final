@@ -1,0 +1,7 @@
+	Model	Params	Accuracy	Method
+0	MLP 1layer	MLPClassifier(hidden_layer_sizes=(508,), max_iter=4000)	0.7973333333333333	CountVectorizer()
+1	MLP 2layer	MLPClassifier(hidden_layer_sizes=(309, 992), max_iter=4000)	0.8133333333333334	CountVectorizer()
+2	SVC Linear	SVC(C=8, gamma=0.001953125, kernel='linear')	0.7866666666666666	CountVectorizer()
+3	MLP 1layer	MLPClassifier(hidden_layer_sizes=(895,), max_iter=4000)	0.808	TfidfVectorizer()
+4	MLP 2layer	MLPClassifier(hidden_layer_sizes=(813, 503), max_iter=4000)	0.8133333333333334	TfidfVectorizer()
+5	SVC Linear	SVC(C=8, gamma=0.001953125, kernel='linear')	0.8013333333333333	TfidfVectorizer()
